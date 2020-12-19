@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="img/sglogo.png" />
+    <title>Portfolio Santiago Guatelli</title>
+</head>
+
+<body>
+    <header class="bluebg">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bluebg fixed-top p-4">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/sglogo.png" alt="SG logo" class="mr-4">Santiago Guatelli
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Conocimientos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre mi!</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="section1">
+            <div class="container">
+
+                <div class="introduction">
+                    <div class="introduction__text">
+                        <h2><b>Hola!</b></h2>
+                        <h1>Mi nombre es Santiago y soy un desarrollador front-end.</h1>
+                        <p>En este sitio web quiero mostrarte algunos de mis proyectos donde pude obtener diferentes skills y desafios interesantes.</p>
+                    </div>
+                    <div class="introduction__img"><img src="img/programmer (2).png" alt="programmer img"></div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- <div class="container"> -->
+            <h2 class="h1 text-center">¿Cuales son mis Conocimientos?</h2>
+            <div class="conocimientos-cards">
+                <div class="conocimientos-cards__lenguajes">
+                    <div class="conocimientos-cards__lenguajes-card" data-bs-toggle="popover" title="HTML5" style="width: 18rem;">
+                        <div class="card-img"><img src="img/html.png" class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">HTML</h5>
+                        </div>
+                    </div>
+                    <div class="conocimientos-cards__lenguajes-card" data-bs-toggle="popover" title="CSS3" style="width: 18rem;">
+                        <div class="card-img"><img src="img/css.png" class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">CSS</h5>
+                        </div>
+                    </div>
+                    <div class="conocimientos-cards__lenguajes-card" data-bs-toggle="popover" title="JavaScript" style="width: 18rem;">
+                        <div class="card-img"><img src="img/javascript.png" class="card-img-top" alt="...">
+                        </div>
+
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript</h5>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="text-center">Otros conocimientos...</h2>
+                <div class="conocimientos-cards__otros">
+                    <div class="conocimientos-cards__otros-container">
+                        <div class="conocimientos-cards__otros-card h5  shadow-custom" data-bs-toggle="popover" title="Bootstrap">
+                            <i class="fab fa-bootstrap h1"></i>Bootstrap
+                        </div>
+                        <div class="conocimientos-cards__otros-card h5 shadow-custom" data-bs-toggle="popover" title="SQL">
+                            <i class="fas fa-database h1"></i>SQL
+                        </div>
+                    </div>
+                    <div class="conocimientos-cards__otros-container">
+                        <div class="conocimientos-cards__otros-card h5 shadow-custom" data-bs-toggle="popover" title="Sass">
+                            <i class="fab fa-sass h1"></i>Sass
+                        </div>
+                        <div class="conocimientos-cards__otros-card h5 shadow-custom" data-bs-toggle="popover" title="GitHub">
+                            <i class="fab fa-github h1"></i>GitHub
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfeJQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</body>
+
+</html>

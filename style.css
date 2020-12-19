@@ -1,0 +1,130 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  padding-top: 55px;
+}
+
+
+.section1 {
+  background-image: url(img/wave.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: start;
+  margin-bottom: 100px;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  padding-top: 100px;
+}
+
+.introduction__text {
+  padding-left: 20px;
+  align-items: center;
+  text-align: start;
+}
+
+.introduction__img {
+  padding: 14px;
+  text-align: center;
+}
+
+.introduction__img img {
+  width: 70%;
+}
+
+.bluebg {
+  background-color: #0099ff;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.carousel {
+  max-width: 300px;
+}
+
+/* ---------------------------Section 2 Cards conocimientos------------------------------ */
+
+.conocimientos-cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.conocimientos-cards__lenguajes {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 60px 30px;
+  overflow: hidden;
+  flex-grow: 1;
+}
+
+.conocimientos-cards__otros {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin: 30px 0px;
+  align-items: center;
+}
+.conocimientos-cards__otros-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  /* margin: 0 auto; */
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.conocimientos-cards__otros-card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid;
+  border-radius: 7px;
+  padding: 10px;
+  min-width: 180px;
+  margin-bottom: 20px;
+  /* -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.66);
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.66);s */
+}
+
+.shadow-custom {
+  box-shadow: 0 2px 0px 0 rgba(0, 0, 0, .25), 0 3px 9px 3px rgba(0, 0, 0, 0.31) !important;
+}
+.fa-bootstrap {
+  color: #7952b3;
+}
+.fa-database {
+  color: #0099ff;
+}
+.fa-sass {
+  color: #bf4080;
+}
+
+@media screen and (max-width: 990px) {
+  .introduction {
+    flex-direction: column;
+  }
+  .nav-link {
+    text-align: end;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .conocimientos-cards__otros-card {
+    min-width: 80%;
+  }
+  .conocimientos-cards__otros-container {
+    flex-direction: column;
+  }
+}
