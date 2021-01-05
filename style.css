@@ -127,11 +127,14 @@ body {
     text-align: center;
 }
 
+.carousel {
+    max-width: 75%;
+}
 
-/* .img-fluid {
-    max-width: 100%;
-    height: auto;
-} */
+.carousel-item img {
+    border-radius: 20px;
+    border: 2px solid black;
+}
 
 @media screen and (max-width: 990px) {
     .introduction {
