@@ -44,10 +44,6 @@ body {
     outline: none;
 }
 
-.carousel {
-    max-width: 300px;
-}
-
 
 /* ---------------------------Section 2 Cards conocimientos------------------------------ */
 
@@ -131,13 +127,19 @@ body {
     text-align: center;
 }
 
-.carousel-control-prev {
-    color: black;
-}
+
+/* .img-fluid {
+    max-width: 100%;
+    height: auto;
+} */
 
 @media screen and (max-width: 990px) {
     .introduction {
         flex-direction: column;
+    }
+    .introduction__img {
+        padding: 0;
+        text-align: center;
     }
     .nav-link {
         text-align: end;
@@ -159,5 +161,8 @@ body {
     }
     .conocimientos-cards__otros:nth-child(3) {
         justify-content: start;
+    }
+    .container {
+        padding: 0;
     }
 }
