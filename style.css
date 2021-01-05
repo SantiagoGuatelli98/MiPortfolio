@@ -123,18 +123,61 @@ body {
 
 /* --------------------------------------section 3 ------------------------------------------------------ */
 
-.accordion-item {
-    text-align: center;
-}
-
 .carousel {
     max-width: 75%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.clicar-aviso {
+    position: absolute;
+    min-width: 150px;
+    background-color: #0099ff;
+    z-index: 10;
+    top: -20px;
+    left: calc(50% - 75px);
+}
+
+.clicar-aviso p {
+    display: inline;
 }
 
 .carousel-item img {
     border-radius: 20px;
     border: 2px solid black;
 }
+
+
+/* ---------------------------------section4-------------------------------------- */
+
+.sobremi {
+    display: flex;
+    min-width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    margin: 80px 10px;
+    padding: 10px;
+    border: solid 1px black;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.sobremi-img {
+    width: 50%;
+    height: 500px;
+}
+
+.sobremi-img img {
+    height: 100%;
+}
+
+.sobremi-info {
+    width: 50%;
+}
+
+.sobre
+/* -------------------------------------------Responsive------------------------------------ */
 
 @media screen and (max-width: 990px) {
     .introduction {
@@ -167,5 +210,11 @@ body {
     }
     .container {
         padding: 0;
+    }
+    .carousel {
+        max-width: 98%;
+    }
+    .sobremi {
+        flex-direction: column;
     }
 }

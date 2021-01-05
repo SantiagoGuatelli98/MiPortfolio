@@ -29,13 +29,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Conocimientos</a>
+                            <a class="nav-link" href="#conocimientos">Conocimientos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Trabajos</a>
+                            <a class="nav-link" href="#trabajos">Trabajos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre mi!</a>
+                            <a class="nav-link" href="#sobremi">Sobre mi!</a>
                         </li>
                     </ul>
                 </div>
@@ -57,7 +57,7 @@
                 </div>
             </div>
         </section>
-        <section class="section2">
+        <section class="section2" id="conocimientos">
             <div class="container">
                 <h2 class="h1 text-center">¿Cuales son mis Conocimientos?</h2>
                 <div class="conocimientos-cards">
@@ -99,56 +99,76 @@
                             <div class="conocimientos-cards__otros-card h5 shadow-custom" data-bs-toggle="popover" title="Sass">
                                 <i class="fab fa-sass h1"></i>Sass
                             </div>
-                            <div class="conocimientos-cards__otros-card h5 shadow-custom" data-bs-toggle="popover" title="GitHub">
-                                <i class="fab fa-github h1"></i>GitHub
+                            <div class="conocimientos-cards__otros-card h5 shadow-custom" data-bs-toggle="popover " title="GitHub ">
+                                <i class="fab fa-github h1 "></i>GitHub
                             </div>
                         </div>
-                        <div class="conocimientos-cards__otros-container">
-                            <div class="conocimientos-cards__otros-card h5 shadow-custom" data-bs-toggle="popover" title="Figma">
-                                <i class="fab fa-figma h1"></i>Figma
+                        <div class="conocimientos-cards__otros-container ">
+                            <div class="conocimientos-cards__otros-card h5 shadow-custom " data-bs-toggle="popover " title="Figma ">
+                                <i class="fab fa-figma h1 "></i>Figma
                             </div>
-                            <div class="conocimientos-cards__otros-card h5 shadow-custom" data-bs-toggle="popover" title="Figma">
-                                <i class="fab fa-figma h1"></i>Figma
+                            <div class="conocimientos-cards__otros-card h5 shadow-custom " data-bs-toggle="popover " title="Figma ">
+                                <i class="fab fa-figma h1 "></i>Figma
                             </div>
                         </div>
                     </div>
                 </div>
         </section>
         <div class="waves">
-            <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-38.09,-3.45 C226.57,205.75 349.20,-49.98 506.49,44.89 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #0099ff;"></path></svg></div>
-            <div style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-21.72,61.67 C230.52,271.88 244.07,-135.69 523.42,137.66 L500.00,0.00 L-7.62,-41.94 Z" style="stroke: none; fill: #0099ff;"></path></svg></div>
+            <div style="height: 150px; overflow: hidden; "><svg viewBox="0 0 500 150 " preserveAspectRatio="none " style="height: 100%; width: 100%; "><path d="M-38.09,-3.45 C226.57,205.75 349.20,-49.98 506.49,44.89 L500.00,150.00 L0.00,150.00 Z
+                                " style="stroke: none; fill: #0099ff; "></path></svg></div>
+            <div style="height: 150px; overflow: hidden; "><svg viewBox="0 0 500 150 " preserveAspectRatio="none " style="height: 100%; width: 100%; "><path d="M-21.72,61.67 C230.52,271.88 244.07,-135.69 523.42,137.66 L500.00,0.00 L-7.62,-41.94 Z
+                                " style="stroke: none; fill: #0099ff; "></path></svg></div>
         </div>
-        <section class="section3">
-            <h2 class="h1 text-center m-5 pb-3">Algunos de mis trabajos!</h2>
-            <div class="container">
-                <div id="carouselExampleControls" class="carousel slide m-auto" data-bs-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <a target="_blank" href="https://pastasmammamia.netlify.app/"><img src="img/slider/pastaspage.png" class="d-block w-100" alt="MammaMia.com"></a>
-                        </div>
-                        <div class="carousel-item">
-                            <a target="_blank" href="https://nbarecords.netlify.app/"><img src="img/slider/nbapage.png" class="d-block w-100" alt="nbarecords.com"></a>
-                        </div>
-                        <div class="carousel-item">
-                            <a target="_blank" href="https://lahuertademica.netlify.app/"><img src="img/slider/huertapage.png" class="d-block w-100" alt="lahuertademica.com"></a>
-                        </div>
+        <section class="section3" id="trabajos">
+            <h2 class="h1 text-center m-5 pb-3 ">Algunos de mis trabajos!</h2>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="clicar-aviso btn btn-primary align-middle ">
+                    <p><strong class="align-top ">Clicar para ver!</strong> </p>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a target="_blank " href="https://pastasmammamia.netlify.app/ "><img src="img/slider/pastaspage.png " class="d-block w-100 " alt="MammaMia.com "></a>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden"></span>
-                    </a>
+                    <div class="carousel-item">
+                        <a target="_blank " href="https://nbarecords.netlify.app/ "><img src="img/slider/nbapage.png " class="d-block w-100 " alt="nbarecords.com "></a>
+                    </div>
+                    <div class="carousel-item">
+                        <a target="_blank " href="https://lahuertademica.netlify.app/ "><img src="img/slider/huertapage.png " class="d-block w-100 " alt="lahuertademica.com "></a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </section>
+        <section class="section4" id="sobremi">
+            <div class="container ">
+                <h2 class="text-center mt-5">Sobre mi!</h2>
+                <div class="sobremi ">
+                    <div class="sobremi-info">
+                        <p>
+                            GUATELLI FACHERO GUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI
+                            FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI
+                            FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHEROGUATELLI FACHERO
+                        </p>
+                    </div>
+                    <div class="sobremi-img ">
+                        <img src="img/sobremi.gif" alt=" ">
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfeJQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js " integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js " integrity="sha384-ApNbgh9+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q " crossorigin="anonymous "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js " integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfeJQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl " crossorigin="anonymous "></script>
+    <link rel="stylesheet " href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css " integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin=" anonymous " />
 </body>
 
 </html>
