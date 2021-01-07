@@ -37,7 +37,7 @@ body {
 }
 
 .bluebg {
-    background-color: #0099ff;
+    background-color: #08f;
 }
 
 .navbar-toggler:focus {
@@ -135,7 +135,7 @@ body {
 .clicar-aviso {
     position: absolute;
     min-width: 176px;
-    background-color: #0099ff;
+    background-color: #08f;
     z-index: 10;
     top: -20px;
     left: calc(50% - 101px);
@@ -169,7 +169,7 @@ body {
     text-align: center;
     margin: 80px 10px;
     padding: 10px;
-    border: solid 10px #0099ff;
+    border: solid 10px #08f;
     align-items: center;
     border-radius: 120px 3px 120px 3px;
 }
@@ -185,6 +185,31 @@ body {
 
 .sobremi-info {
     width: 50%;
+}
+
+
+/* -------------------------------------footer-------------------------------------------------- */
+
+footer {
+    position: relative;
+}
+
+.redes__titulo {
+    position: relative;
+    top: 70px;
+    left: 0px;
+    text-align: center;
+}
+
+.redes__container {
+    display: flex;
+    position: absolute;
+    top: 240px;
+    left: calc(50% - 176px);
+}
+
+.redes__wsp .redes__insta .redes__linkedin .redes__gmail {
+    position: absolute;
 }
 
 
@@ -235,5 +260,8 @@ body {
     }
     .sobremi {
         display: none;
+    }
+    .last-wave {
+        overflow: hidden;
     }
 }
