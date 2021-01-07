@@ -52,6 +52,10 @@ body {
     margin: 0 auto;
 }
 
+.conocimientos-cards__lenguajes-mobile {
+    display: none;
+}
+
 .card .conocimientos-cards {
     display: flex;
     flex-direction: column;
@@ -66,7 +70,6 @@ body {
     text-align: center;
     margin: 60px 30px;
     overflow: hidden;
-    flex-grow: 1;
 }
 
 .conocimientos-cards__otros-container {
@@ -131,11 +134,11 @@ body {
 
 .clicar-aviso {
     position: absolute;
-    min-width: 150px;
+    min-width: 176px;
     background-color: #0099ff;
     z-index: 10;
     top: -20px;
-    left: calc(50% - 75px);
+    left: calc(50% - 101px);
 }
 
 .clicar-aviso p {
@@ -145,6 +148,14 @@ body {
 .carousel-item img {
     border-radius: 20px;
     border: 2px solid black;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
 
@@ -158,9 +169,9 @@ body {
     text-align: center;
     margin: 80px 10px;
     padding: 10px;
-    border: solid 1px black;
+    border: solid 10px #0099ff;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 120px 3px 120px 3px;
 }
 
 .sobremi-img {
@@ -207,6 +218,14 @@ body {
     }
     .conocimientos-cards__otros:nth-child(3) {
         justify-content: start;
+    }
+    .conocimientos-cards__lenguajes {
+        display: none;
+    }
+    .conocimientos-cards__lenguajes-mobile {
+        display: block;
+        margin: 20px 0px;
+        text-align: center;
     }
     .container {
         padding: 0;
